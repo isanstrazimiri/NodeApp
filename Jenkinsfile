@@ -6,12 +6,12 @@ node {
 
         checkout scm
     }
-
+/* 
     stage('Build image') {
         /* This builds the actual image */
 
-       /* app = docker.build("isanstrazimiri/nodeapp") */
-    }
+       /* app = docker.build("isanstrazimiri/nodeapp") 
+    }*/
 
     stage('Test image') {
         
